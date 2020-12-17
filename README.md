@@ -39,3 +39,11 @@ $ npm stop
 $ yarn dev 或者 npm run dev
 $ open http://localhost:7001/
 ```
+
+
+## next
+1.mysql本地数据库密码：必须大小写字母，数字，特殊字符！
+2.mysql本地数据库登陆密码/sequel pro连接密码：HCy123..
+3.进入数据库命令：/usr/local/mysql/bin/mysql -u root -p
+4.退出mysql数据库：ctrl+z。
+

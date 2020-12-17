@@ -11,6 +11,7 @@
     "egg-scripts": "^2.13.0",
     "egg-sequelize": "^6.0.0",
     "egg-view-nunjucks": "^2.2.0",
+    "egg-webpack": "^4.5.4",
     "mysql2": "^2.2.5"
   },
   "devDependencies": {

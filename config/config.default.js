@@ -13,7 +13,7 @@ module.exports = appInfo => {
   const config = exports = {};
 
   // use for cookie sign key, should change to your own and keep security
-  config.keys = appInfo.name + '_1606913574669_4632';
+  config.keys = appInfo.name + '_1358762902465_4902';
 
   // add your middleware config here
   config.middleware = [];
@@ -21,6 +21,25 @@ module.exports = appInfo => {
   // add your user config here
   const userConfig = {
     // myAppName: 'egg',
+  };
+
+  // 添加 view 配置
+  config.view = {
+    defaultViewEngine: 'nunjucks',
+    mapping: {
+      '.html': 'nunjucks',
+    },
+  };
+
+  config.sequelize = {
+    dialect: 'mysql',
+    host: '127.0.0.1',
+    port: 3306,
+    database: 'egg-sequelize-doc-default',
+  };
+
+  config.webpack = {
+    webpackConfigList: [require('../client/webpack.config.js')],
   };
 
   return {
