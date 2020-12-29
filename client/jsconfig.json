@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "jsx": "react",
+    "allowSyntheticDefaultImports": true,
+    "experimentalDecorators": true,
+    "baseUrl": ".",
+    "paths": {
+      "common/*": ["./common/*"],
+      "cpn/*": ["./component/*"],
+      "route/*": ["./route/*"]
+    }
+  },
+  "exclude": ["node_modules"]
+}

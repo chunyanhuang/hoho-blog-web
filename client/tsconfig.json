@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "rootDir": ".",
+    "module": "esnext",
+    "target": "esnext",
+    "lib": ["esnext", "dom"],
+    "jsx": "preserve",
+    "moduleResolution": "node",
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noUnusedParameters": true,
+    "noUnusedLocals": true,
+    "baseUrl": ".",
+    "allowJs": true,
+    "noImplicitAny": true,
+    "allowSyntheticDefaultImports": true,
+    "paths": {
+      "common/*": ["./common/*"],
+      "cpn/*": ["./component/*"],
+      "route/*": ["./route/*"]
+    }
+  },
+  "include": ["./lib/**/*"],
+  "exclude": ["node_modules"]
+}
